@@ -1,14 +1,14 @@
 let BASE_URL = "https://www.omdbapi.com/?apikey=63d86761&s="
-let firstBg = document.querySelector(".first-bg");
+let firstBg = document.querySelector("#first-bg");
 let row = document.querySelector(".row");
 let row1 = document.querySelector(".row1");
 let row2 = document.querySelector(".row2");
 let background = document.querySelector(".background-image");
-let price = document.querySelector(".price");
+let price = document.querySelector("#price");
 const movie = ["https://www.youtube.com/watch?v=lZkYH4ZIV88&ab_channel=AhmadAli", "https://www.youtube.com/watch?v=aLzeBYjYE9g&ab_channel=HollywoodExpress", "https://www.youtube.com/watch?v=RBQamFajUSU&ab_channel=MzaaloCineplex", "https://www.youtube.com/watch?v=5UTmN8jPJS0&ab_channel=Obsessions", "https://www.youtube.com/watch?v=wypHNa9cbnQ&ab_channel=FullHDvideos4me"];
 
 const t = document.getElementById("title");
-let navlist = document.querySelector(".nav-list");
+// let navlist = document.querySelector(".nav-list");
 
 
 
@@ -72,9 +72,6 @@ function big(){
     
 }
 
-navlist.addEventListener('click', () => {
-    console.log(navlist);
-})
 
 function myFunction(data) {
     console.log(data);

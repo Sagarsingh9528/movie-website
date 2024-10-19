@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
 
 }
-body{
+
+body {
     background-color: rgb(55, 54, 54);
     height: 100vh;
     overflow-x: hidden;
@@ -11,14 +12,16 @@ body{
     /* width: 100vh; */
     /* padding-top: var(--nav-height); */
 }
-#first-bg{
+
+#first-bg {
     opacity: 0.9;
     background-image: url('thor-1920X1200-wallpaper-hxua9tvc2z0ptxny.jpg');
     height: 70rem;
     /* width: 100rem; */
     margin-top: 6rem;
 }
-#search{
+
+#search {
     margin-left: 1rem;
     height: 3rem;
     width: 6rem;
@@ -26,11 +29,12 @@ body{
     font-weight: 800;
     border-radius: 1rem;
     background-color: blue;
-    
+
     /* margin-bottom: 2rem; */
 
 }
-#thor-watch{
+
+#thor-watch {
     margin-top: 15rem;
     margin-left: 5rem;
     height: 4rem;
@@ -43,25 +47,28 @@ body{
     border: solid black;
 
 }
-#lo{
+
+#lo {
     font-size: 2rem;
     margin-top: 2rem;
     margin-left: 5rem;
 }
-.view8{
+
+.view8 {
     color: #fff;
     margin-left: 5rem;
     margin-top: 30rem;
     justify-content: space-between;
 }
-.thor{
+
+.thor {
     font-size: 4rem;
     color: #fff;
     /* margin-left: rem; */
     margin-top: 2rem;
 }
 
-.navbar{
+.navbar {
     display: inline-block;
     justify-content: space-between;
     align-items: center;
@@ -72,10 +79,12 @@ body{
     margin-top: 1rem;
 
 }
+
 .nav-list {
     display: flex;
     list-style: none;
 }
+
 .nav-list li {
     margin-right: 20px;
 }
@@ -95,31 +104,33 @@ body{
     color: #ffd700;
     /* Change the color on hover */
 }
+
 /* .movie-box{
     margin-top: 100rem;
 } */
-.nav{
-   height: 1vh;
+.nav {
+    height: 1vh;
 }
 
-#img{
+#img {
     height: 4rem;
     margin-left: 2rem;
     margin-right: 5rem;
-    
-}
-.input{
-    
-    margin-left: 15rem;
-   margin-right: 5rem;
-   margin-bottom: 5rem;
-    
+
 }
 
-#in{
+.input {
+
+    margin-left: 15rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+
+}
+
+#in {
     height: 4rem;
-    width: 70rem;
-    
+    width: 60rem;
+
     border-radius: 5rem;
     background-color: rgb(81, 79, 79);
     border: none;
@@ -128,20 +139,22 @@ body{
     font-size: 2rem;
     font-style: italic;
     font-weight: 900;
-    
+
 }
 
-#row{
+.row {
     /* justify-content: space-between; */
     display: table;
     width: 100%;
-    
-    
+
+
 }
-.movie-img{
+
+.movie-img {
     border-radius: 1rem;
 }
-.title{
+
+.title {
     margin-top: 1rem;
     font-weight: 800;
     font-size: 1.5rem;
@@ -149,17 +162,19 @@ body{
     border-radius: 1rem;
     width: 20rem;
     height: 6rem;
-    
+
 }
-.name{
+
+.name {
     color: #9faf64;
 }
-.column0{
-    width: 25rem;
+
+.column0 {
+    width: 27rem;
     padding: 5px;
-    height: 35rem;
+    height: 30rem;
     float: left;
-    margin-left: 6rem;
+    /* margin-left: rem; */
     /* margin-right: 10rem; */
     justify-content: space-between;
     color: #fff;
@@ -170,12 +185,13 @@ body{
     font-size: 1rem;
     border-radius: 1rem;
 }
-.column{
-    width: 15rem;
+
+.column {
+    width: 14rem;
     padding: 5px;
     height: 35rem;
     float: left;
-    margin-left: 8rem;
+    margin-left: 6rem;
     /* margin-right: 10rem; */
     justify-content: space-between;
     color: #fff;
@@ -188,36 +204,39 @@ body{
     /* box-shadow: 5px 5p black; */
 }
 
-#row1{
+.row1 {
     display: table;
     width: 100%;
 }
-.column1{
+
+.column1 {
     margin-top: 10rem;
-    width: 25rem;
+    width: 28rem;
     padding: 5px;
     height: 50rem;
     float: left;
     justify-content: space-between;
-    margin-left: 7rem;
+    /* margin-left: rem; */
+    margin-right: 0rem;
 
 }
-.row2{
+
+.row2 {
     display: table;
-    
-    
+
+
     display: inline;
 }
 
-.column2{
-    width: 15rem;
+.column2 {
+    width: 8rem;
     padding: 5px;
     height: 40rem;
     float: left;
     justify-content: space-between;
 }
 
-.transformer{
+.transformer {
     background-image: url('Bumblebee\ \(2018\).jfif');
     width: 100rem;
     margin-top: 50rem;
@@ -228,31 +247,32 @@ body{
     position: absolute;
     background-size: 100rem 60rem;
     height: 40rem;
-    
+
 
 }
 
-p{
+p {
     margin-top: 3rem;
     width: 30rem;
     height: 10rem;
     font-size: 1.5rem;
     font-weight: 1000;
     color: rgb(249, 248, 248);
-    
+
     margin-left: 2rem;
-    
-    
+
+
 }
 
-#head{
+#head {
     font-size: 4rem;
     margin-top: 15rem;
     margin-right: 72rem;
     color: rgb(248, 250, 251);
     font-weight: bold;
-    
+
 }
+
 /* .transformer{
     color: #fff;
     margin-right: 70rem;
@@ -260,28 +280,31 @@ p{
     
    
 } */
-.movie-infos{
+.movie-infos {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 0.5rem;
     margin-left: 2rem;
 }
-.movie-info{
+
+.movie-info {
     display: flex;
     align-items: center;
     font-size: 0.8rem;
     font-weight: 700;
     color: #fff;
 }
-.movie-info span{
+
+.movie-info span {
     margin-left: 5px;
 }
-.movie-info i{
+
+.movie-info i {
     color: var(--main-color);
 }
 
-#btn{
+#btn {
     margin-top: 1.5rem;
     margin-left: 2rem;
     height: 2rem;
@@ -290,33 +313,38 @@ p{
     color: #fff;
     border-radius: 8rem;
 }
-#price{
+
+#price {
     margin-top: 100rem;
     height: 50vh;
     background-color: rgb(19, 1, 1);
 }
-h1{
+
+h1 {
     margin-top: 50rem;
     display: flex;
     justify-content: center;
     color: #fff;
 }
-.row-box{
+
+.row-box {
     height: 2vh;
 }
 
-.content{
+.content {
     margin-top: 5px;
     width: 10rem;
-    
+
 }
-#flix{
+
+#flix {
     font-size: 2rem;
     height: 6vh;
     width: 5rem;
-    
+
 }
-.footer{
+
+.footer {
     margin-left: 80rem;
     display: inline-block;
     justify-content: space-between;
@@ -324,48 +352,54 @@ h1{
 
 
 }
-.footer li a{
+
+.footer li a {
     list-style-type: none;
     font-size: 1.5rem;
     justify-content: space-between;
     color: #fff;
     text-decoration: none;
-    
+
 }
-.social{
+
+.social {
     margin-left: rem;
     margin-top: 1rem;
     justify-content: center;
-    
+
     font-size: 3rem;
     display: flex;
     align-items: center;
 }
-.lorem{
+
+.lorem {
     margin-top: 1.5rem;
 }
 
-.tittle{
+.tittle {
     font-size: 2rem;
     margin-left: 12rem;
     color: #f9f7f7;
     background-color: rgb(74, 72, 72);
     width: 20rem;
     height: 7rem;
-    
-    
+
+
 }
-.bat{
+
+.bat {
     margin-left: 1rem;
-    
+
 }
-.view{
+
+.view {
     font-size: 1rem;
     margin-top: 0.5rem;
     margin-left: 0.5rem;
     justify-content: space-between;
 }
-.tittle0{
+
+.tittle0 {
     margin-left: 6rem;
     background-color: rgb(74, 72, 72);
     color: #fff;
@@ -373,27 +407,31 @@ h1{
     width: 20rem;
     font-size: 2rem;
 }
-.view0{
+
+.view0 {
     font-size: 1rem;
     margin-top: 0.5rem;
     margin-left: 0.5rem;
     justify-content: space-between;
 }
-.tittle1{
-    
+
+.tittle1 {
+
     background-color: rgb(74, 72, 72);
     color: #fff;
     height: 7rem;
     width: 20rem;
     font-size: 1.75rem;
 }
-.view1{
+
+.view1 {
     font-size: 1rem;
     margin-top: 0.5rem;
     margin-left: 0.5rem;
     justify-content: space-between;
 }
-.tittle2{
+
+.tittle2 {
     margin-left: 15rem;
     background-color: rgb(74, 72, 72);
     color: #fff;
@@ -401,13 +439,15 @@ h1{
     height: 7rem;
     font-size: 2rem;
 }
-.view2{
+
+.view2 {
     font-size: 1rem;
     margin-left: 0.5rem;
     justify-content: space-between;
 
 }
-.tittle3{
+
+.tittle3 {
     margin-left: 20rem;
     background-color: rgb(74, 72, 72);
     width: 30rem;
@@ -415,12 +455,14 @@ h1{
     color: #fff;
     font-size: 2rem;
 }
-.view3{
+
+.view3 {
     font-size: 1rem;
     margin-left: 1rem;
     justify-content: space-between;
 }
-.tittle4{
+
+.tittle4 {
     background-color: rgb(74, 72, 72);
     margin-left: 8rem;
     width: 20rem;
@@ -428,12 +470,14 @@ h1{
     font-size: 2rem;
     color: #fff;
 }
-.view4{
+
+.view4 {
     font-size: 1rem;
     margin-left: 0.5rem;
     justify-content: space-between;
 }
-.title6{
+
+.title6 {
     margin-left: 45rem;
     background-color: rgb(74, 72, 72);
     width: 20rem;
@@ -441,13 +485,15 @@ h1{
     color: #fff;
     font-size: 2rem;
 }
-.view6{
+
+.view6 {
     font-size: 1rem;
     margin-top: 2rem;
     margin-left: 0.5rem;
     justify-content: space-between;
 }
-.title5{
+
+.title5 {
     margin-left: 27rem;
     width: 20rem;
     background-color: rgb(74, 72, 72);
@@ -455,7 +501,8 @@ h1{
     font-size: 2rem;
     color: #fff;
 }
-.view5{
+
+.view5 {
     font-size: 1rem;
     margin-top: 2rem;
     margin-left: 0.5rem;
